@@ -1,0 +1,43 @@
+.background    { background: url('http://40.media.tumblr.com/8c4d740fabd1c284af9a163f5dddcc05/tumblr_mjunjh67sy1qexo6wo6_400.png');
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url('http://pixeljoint.com/files/icons/lava__r1469502231.gif'); }
+.wall          { background: white;   }
+
+.actor  { position: absolute;  }
+.coin   { background: url('http://38.media.tumblr.com/tumblr_lta5ygZ6yA1qheyr8o1_100.gif'); }
+.player { background: url('http://static.tumblr.com/f49a42e73c95bd21be1ddbd72eca86d6/hvuze1t/Imtnvp1i0/tumblr_static_xgde87wbb7k0cgwo8c4wkw84.gif');}
+.playerLeft {background: url('http://i484.photobucket.com/albums/rr206/rrodriguez259/ghost_left_run_zps3l5bq1ye.gif');}
+
+.batty { background: url("http://i484.photobucket.com/albums/rr206/rrodriguez259/batty_zpsvehrmpyl.gif");}
+.skelly { background: url("http://i484.photobucket.com/albums/rr206/rrodriguez259/skelly_right_run_zpshcj5htou.gif");}
+
+/* This was supposed to be the relfected image that would display when the Skeleton collided with stage elements. However the conditional statements
+kept only displaying one of the two states. As such, the code for the skellyLeft was removed from game.js but the image can still be found in the 
+file and the URL is still active.
+
+.skellyLeft {background: url('http://i484.photobucket.com/albums/rr206/rrodriguez259/skelly_left_run_zpskwwx96an.gif');}
+*/
+
+/* The images can be found in the file and do work when called. However due to the game breaking block of code, I only wrote the code for the standard spike. 
+The directional spike codes would be the same thing, just swap the symbol they call on (left = $, right = *, and down = +) and put the names as they 
+appear here for the tags.They were only written to show in level 2 for testing before being implemented in later levels.
+
+.spike { background: url('http://i484.photobucket.com/albums/rr206/rrodriguez259/spike_zps5gdeplmd.png');}
+.spikeLeft { background: url('http://i484.photobucket.com/albums/rr206/rrodriguez259/spike_left_zps06y7xtj3.png');}
+.spikeRight { background: url('http://i484.photobucket.com/albums/rr206/rrodriguez259/spike_right_zpse5ezkxl5.png');}
+.spikeDown { background: url('http://i484.photobucket.com/albums/rr206/rrodriguez259/spike_down_zpsnpmprlmy.png');}
+*/
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+.lost .player
+ { background: url("http://i484.photobucket.com/albums/rr206/rrodriguez259/explode_zpsjncjmmhj.gif");}
+
+.won .player {
+ width:350px;height:200px; box-shadow: 0px -2px 20px white inset; border-radius: 100px ;
+}
