@@ -1,0 +1,14 @@
+skeleton
+http://pixeljoint.com/files/icons/running_loop.gif
+
+bat
+https://38.media.tumblr.com/a9d7535fb1db6d1647fd2f1e1d68277f/tumblr_nvrvdzHWPn1s2x4ieo1_500.gif
+
+ghost
+http://static.tumblr.com/f49a42e73c95bd21be1ddbd72eca86d6/hvuze1t/Imtnvp1i0/tumblr_static_xgde87wbb7k0cgwo8c4wkw84.gif
+
+explosion
+http://pixeljoint.com/files/icons/explosion__r1267603041.gif
+
+spike 
+http://www.vertigofx.com/games/fangame/spike-up-64.png
